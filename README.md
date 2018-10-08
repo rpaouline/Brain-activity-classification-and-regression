@@ -12,5 +12,6 @@ Raw EEG is N time series, where N is a number of electrods.
 ![](images/eeg_alpha1_small.jpg)
 
 If we split every time series into blocks of several seconds and then depict all this signals on a map of the head we can see such pictures:
-![](images/noise.png)
-![](images/not_noise.png)
+
+![](images/noise_small.png)
+![](images/not_noise_small.png)
