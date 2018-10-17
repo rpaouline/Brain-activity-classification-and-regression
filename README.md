@@ -1,6 +1,9 @@
 # Brain-activity-classification-and-regression
 
-This capston project consists of two parts: classification of brain activity images from EEG and prediction of time-series from MRI.
+I was always fascinated with medicine and biology. Particularly, I'm interested in the prevention of the diseases as opposed to their treatment. One of my friends, a scientist, captivated my attention with a really cool biofeedback study, where a person lies inside the magnetic resonance imaging (MRI) scanner, sees his indicators and changes them with an effort of will. Alternatively, a person wears a heart rate monitor and by augmenting the will he or she changes the pulse. As another option, he or she sees signals from an electroencephalograph and also changes those.
+I am particularly impressed that my friend's study is focused on people suffering from depressive disorders. I believe that such a treatment is the future. The body ceases to be a black box, at the entrance of which it is served with medications, while at the exit it gets relief from pain or depression. On the other hand, within the approach of my friend, a person sees what is actually happening in his head, and receives not only understanding, but also control over these processes. This idea captured me completely. Being a data scientist, I decided to join this process.
+
+This capston project consists of two parts: classification of brain activity images from EEG and prediction of time-series from MRI. 
 
 ## Classification of brain activity from electroencephalograph (EEG)
 
