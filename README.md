@@ -57,3 +57,7 @@ As a learning corps were taken five records of the NFB sensory-motor cortex acti
 As a model I choose Long short-term memory (LSTM) neural network. It has only one LSTM layer and an output layer with one node (because we solve regression problem). It is practically proven that one LSTM layer is enough for this task.
 
 ![](images/true_pred.png)
+
+## Conclusion
+
+Both parts of this task are of great importance for applied science. Each of the two models is included in the scientific publication on the relevant topic. This once again proves the practical benefits of machine learning and the high efficiency of neural networks when dealing with complex data, such as images or time series.
