@@ -29,10 +29,12 @@ If we split every time series into blocks of several seconds and then depict all
 
 My task is to create a convolutional neural network (CNN) for classifying this components into noise and signals.
 
-### Data preprocessing
+### Gathering the data and preprocessing
 
-At the enter of the project I had 7,241 images, 1,700 of them are noise. It's a large enough dataset but it can be better. Firsf of all I flipped every image horizontally, so I've got 14,482 images. Then I balanced classes - I bootstrapped set of 11,082 images from 3,400 noise images. Now I had 22,164 images, e.g. three times more than I had at the start.
+At the enter of the project I had 7,241 images, 1,700 of them are noise. It's a large enough dataset but it can be better. Firsf of all I flipped every image horizontally and added these new images to my original dataset so I've got 14,482 images. Then I balanced classes - I bootstrapped set of 11,082 images from 3,400 noise images. Now I had 22,164 images, e.g. three times more than I had at the start. 
 
 ### Modelling
 
 For classification I have chosen a convolitional neural network (CNN). It has 4 convolutional layers, 4 max-pooling layers, 2 flatten layers and 2 full layers. As a result I have got a model that classify images with 94.5% accuracy.
+
+![](images/accuracy_loss.jpg)
