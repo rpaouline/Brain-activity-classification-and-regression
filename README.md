@@ -38,3 +38,15 @@ At the enter of the project I had 7,241 images, 1,700 of them are noise. It's a 
 For classification I have chosen a convolitional neural network (CNN). It has 4 convolutional layers, 4 max-pooling layers, 2 flatten layers and 2 full layers. As a result I have got a model that classify images with 94.5% accuracy.
 
 ![](images/accuracy_loss.jpg)
+
+## Magnetic resonance imaging (MRI) time series regression
+
+### Problem
+???
+
+### Gathering the data and preprocessing
+
+In this part of the project I had quite a few input data - only five time series. All the rows are of the same length and the same nature, so I can create one model based on all the rows. To increase the amount of data I connected the ends of the rows and cut them in other places. So I created twenty more time series and I got twenty five.
+
+![](images/time_series_1.png)
+![](images/time_series_2.png)
