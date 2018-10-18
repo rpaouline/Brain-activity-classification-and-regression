@@ -16,12 +16,18 @@ Raw EEG is N time series, where N is a number of electrods.
 
 ![](images/fig2.jpg)
 
+EEG recording is a mixture of both target signals and multiple third-party signals, noise artifacts. The noise complicate not only the visual presentation of signal, but also algorithmic post-processing. Clearing data from noise artifacts is a very important and time-consuming task requiring expert level of knowledge and experience of the experimenter. It leads to bad reproducibility of results not only between different teams, but even inside one team and inside one experiment, since the work of an expert is subject to many human factors (fatigue, time limit, errors). Also, if during processing the experimenter decides to change the design processing, then, as a rule, this leads to the need to perform cleaning again.
+
 ![](images/eeg_alpha1_small.jpg)
 
-If we split every time series into blocks of several seconds and then depict all this signals on a map of the head we can see such pictures (left - noise, right - not noise):
+Many other physiological components can also be removed if their characteristic signal is not in the area of interest of the experimenter. For the classification of components by the experimenter, there are several methods of graphical representation, among which the most popular are spectral power, the intensity of the component on the electrodes, and the intensity in time.
+
+If we split every time series into blocks of several seconds and then depict all this signals on a map of the head we can see such pictures (left - noise, right - target signal):
 
 ![](images/noise_small.png)
 ![](images/not_noise_small.png)
+
+My task is to create a convolutional neural network (CNN) for classifying this components into noise and signals.
 
 ### Data preprocessing
 
